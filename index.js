@@ -82,5 +82,5 @@ app.post('/send-email', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is listening at http://localhost:${port}`);
+    console.log(`Server is listening`);
 });
